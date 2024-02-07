@@ -8,7 +8,9 @@ const Hero = () => {
           placeholder="Search for a country..."
         />
         <select name="region" className="p-2">
-          <option value="">Filter by Region</option>
+          <option value="" disabled selected>
+            Filter by Region
+          </option>
         </select>
       </div>
     </div>
